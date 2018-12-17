@@ -1,0 +1,15 @@
+Authentication: username + password
+Encryption: Caesar Cypher, Shift 13
+Encryption Scheme: E+##$Message
+Port: 30000
+
+Protocol=
+HELO (before login)
+MAIL FROM
+RCPT TO
+DATA (confirms msg is ready)
+
+QUIT
+
+RETRIEVE FROM <UserName>
+
